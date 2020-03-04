@@ -1,0 +1,803 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.3.2
+3 info using node@v0.10.13
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'C:\\Users\\MARKETING\\Documents\\GitHub\\BlackBox-mk2\\express-server',
+6 verbose install   [ 'bcrypt-nodejs',
+6 verbose install     'bluebird',
+6 verbose install     'body-parser',
+6 verbose install     'cloudinary',
+6 verbose install     'cors',
+6 verbose install     'express',
+6 verbose install     'jsonwebtoken',
+6 verbose install     'morgan',
+6 verbose install     'multer',
+6 verbose install     'mysql',
+6 verbose install     'mysql2',
+6 verbose install     'nodemon',
+6 verbose install     'passport',
+6 verbose install     'passport-jwt',
+6 verbose install     'pg',
+6 verbose install     'sequelize',
+6 verbose install     'eslint',
+6 verbose install     'sqlite3' ] ]
+7 info preinstall express-server@1.0.0
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'bcrypt-nodejs@0.0.3', null ]
+10 verbose cache add name=undefined spec="bcrypt-nodejs@0.0.3" args=["bcrypt-nodejs@0.0.3",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'bcrypt-nodejs@0.0.3',
+11 verbose parsed url   path: 'bcrypt-nodejs@0.0.3',
+11 verbose parsed url   href: 'bcrypt-nodejs@0.0.3' }
+12 verbose cache add name="bcrypt-nodejs" spec="0.0.3" args=["bcrypt-nodejs","0.0.3"]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: '0.0.3',
+13 verbose parsed url   path: '0.0.3',
+13 verbose parsed url   href: '0.0.3' }
+14 verbose addNamed [ 'bcrypt-nodejs', '0.0.3' ]
+15 verbose addNamed [ '0.0.3', '0.0.3' ]
+16 verbose cache add [ 'bluebird@^3.5.5', null ]
+17 verbose cache add name=undefined spec="bluebird@^3.5.5" args=["bluebird@^3.5.5",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'bluebird@^3.5.5',
+18 verbose parsed url   path: 'bluebird@^3.5.5',
+18 verbose parsed url   href: 'bluebird@^3.5.5' }
+19 verbose cache add name="bluebird" spec="^3.5.5" args=["bluebird","^3.5.5"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '^3.5.5',
+20 verbose parsed url   path: '^3.5.5',
+20 verbose parsed url   href: '^3.5.5' }
+21 verbose addNamed [ 'bluebird', '^3.5.5' ]
+22 verbose addNamed [ null, null ]
+23 verbose cache add [ 'body-parser@^1.19.0', null ]
+24 verbose cache add name=undefined spec="body-parser@^1.19.0" args=["body-parser@^1.19.0",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'body-parser@^1.19.0',
+25 verbose parsed url   path: 'body-parser@^1.19.0',
+25 verbose parsed url   href: 'body-parser@^1.19.0' }
+26 verbose cache add name="body-parser" spec="^1.19.0" args=["body-parser","^1.19.0"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '^1.19.0',
+27 verbose parsed url   path: '^1.19.0',
+27 verbose parsed url   href: '^1.19.0' }
+28 verbose addNamed [ 'body-parser', '^1.19.0' ]
+29 verbose addNamed [ null, null ]
+30 verbose cache add [ 'cloudinary@^1.14.0', null ]
+31 verbose cache add name=undefined spec="cloudinary@^1.14.0" args=["cloudinary@^1.14.0",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'cloudinary@^1.14.0',
+32 verbose parsed url   path: 'cloudinary@^1.14.0',
+32 verbose parsed url   href: 'cloudinary@^1.14.0' }
+33 verbose cache add name="cloudinary" spec="^1.14.0" args=["cloudinary","^1.14.0"]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: '^1.14.0',
+34 verbose parsed url   path: '^1.14.0',
+34 verbose parsed url   href: '^1.14.0' }
+35 verbose addNamed [ 'cloudinary', '^1.14.0' ]
+36 verbose addNamed [ null, null ]
+37 verbose cache add [ 'cors@^2.8.5', null ]
+38 verbose cache add name=undefined spec="cors@^2.8.5" args=["cors@^2.8.5",null]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: 'cors@^2.8.5',
+39 verbose parsed url   path: 'cors@^2.8.5',
+39 verbose parsed url   href: 'cors@^2.8.5' }
+40 verbose cache add name="cors" spec="^2.8.5" args=["cors","^2.8.5"]
+41 verbose parsed url { protocol: null,
+41 verbose parsed url   slashes: null,
+41 verbose parsed url   auth: null,
+41 verbose parsed url   host: null,
+41 verbose parsed url   port: null,
+41 verbose parsed url   hostname: null,
+41 verbose parsed url   hash: null,
+41 verbose parsed url   search: null,
+41 verbose parsed url   query: null,
+41 verbose parsed url   pathname: '^2.8.5',
+41 verbose parsed url   path: '^2.8.5',
+41 verbose parsed url   href: '^2.8.5' }
+42 verbose addNamed [ 'cors', '^2.8.5' ]
+43 verbose addNamed [ null, null ]
+44 verbose cache add [ 'express@^4.17.1', null ]
+45 verbose cache add name=undefined spec="express@^4.17.1" args=["express@^4.17.1",null]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: 'express@^4.17.1',
+46 verbose parsed url   path: 'express@^4.17.1',
+46 verbose parsed url   href: 'express@^4.17.1' }
+47 verbose cache add name="express" spec="^4.17.1" args=["express","^4.17.1"]
+48 verbose parsed url { protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: '^4.17.1',
+48 verbose parsed url   path: '^4.17.1',
+48 verbose parsed url   href: '^4.17.1' }
+49 verbose addNamed [ 'express', '^4.17.1' ]
+50 verbose addNamed [ null, null ]
+51 verbose cache add [ 'jsonwebtoken@^8.5.1', null ]
+52 verbose cache add name=undefined spec="jsonwebtoken@^8.5.1" args=["jsonwebtoken@^8.5.1",null]
+53 verbose parsed url { protocol: null,
+53 verbose parsed url   slashes: null,
+53 verbose parsed url   auth: null,
+53 verbose parsed url   host: null,
+53 verbose parsed url   port: null,
+53 verbose parsed url   hostname: null,
+53 verbose parsed url   hash: null,
+53 verbose parsed url   search: null,
+53 verbose parsed url   query: null,
+53 verbose parsed url   pathname: 'jsonwebtoken@^8.5.1',
+53 verbose parsed url   path: 'jsonwebtoken@^8.5.1',
+53 verbose parsed url   href: 'jsonwebtoken@^8.5.1' }
+54 verbose cache add name="jsonwebtoken" spec="^8.5.1" args=["jsonwebtoken","^8.5.1"]
+55 verbose parsed url { protocol: null,
+55 verbose parsed url   slashes: null,
+55 verbose parsed url   auth: null,
+55 verbose parsed url   host: null,
+55 verbose parsed url   port: null,
+55 verbose parsed url   hostname: null,
+55 verbose parsed url   hash: null,
+55 verbose parsed url   search: null,
+55 verbose parsed url   query: null,
+55 verbose parsed url   pathname: '^8.5.1',
+55 verbose parsed url   path: '^8.5.1',
+55 verbose parsed url   href: '^8.5.1' }
+56 verbose addNamed [ 'jsonwebtoken', '^8.5.1' ]
+57 verbose addNamed [ null, null ]
+58 verbose cache add [ 'morgan@^1.9.1', null ]
+59 verbose cache add name=undefined spec="morgan@^1.9.1" args=["morgan@^1.9.1",null]
+60 verbose parsed url { protocol: null,
+60 verbose parsed url   slashes: null,
+60 verbose parsed url   auth: null,
+60 verbose parsed url   host: null,
+60 verbose parsed url   port: null,
+60 verbose parsed url   hostname: null,
+60 verbose parsed url   hash: null,
+60 verbose parsed url   search: null,
+60 verbose parsed url   query: null,
+60 verbose parsed url   pathname: 'morgan@^1.9.1',
+60 verbose parsed url   path: 'morgan@^1.9.1',
+60 verbose parsed url   href: 'morgan@^1.9.1' }
+61 verbose cache add name="morgan" spec="^1.9.1" args=["morgan","^1.9.1"]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: '^1.9.1',
+62 verbose parsed url   path: '^1.9.1',
+62 verbose parsed url   href: '^1.9.1' }
+63 verbose addNamed [ 'morgan', '^1.9.1' ]
+64 verbose addNamed [ null, null ]
+65 verbose cache add [ 'multer@^1.4.1', null ]
+66 verbose cache add name=undefined spec="multer@^1.4.1" args=["multer@^1.4.1",null]
+67 verbose parsed url { protocol: null,
+67 verbose parsed url   slashes: null,
+67 verbose parsed url   auth: null,
+67 verbose parsed url   host: null,
+67 verbose parsed url   port: null,
+67 verbose parsed url   hostname: null,
+67 verbose parsed url   hash: null,
+67 verbose parsed url   search: null,
+67 verbose parsed url   query: null,
+67 verbose parsed url   pathname: 'multer@^1.4.1',
+67 verbose parsed url   path: 'multer@^1.4.1',
+67 verbose parsed url   href: 'multer@^1.4.1' }
+68 verbose cache add name="multer" spec="^1.4.1" args=["multer","^1.4.1"]
+69 verbose parsed url { protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: '^1.4.1',
+69 verbose parsed url   path: '^1.4.1',
+69 verbose parsed url   href: '^1.4.1' }
+70 verbose addNamed [ 'multer', '^1.4.1' ]
+71 verbose addNamed [ null, null ]
+72 verbose cache add [ 'mysql@^2.18.1', null ]
+73 verbose cache add name=undefined spec="mysql@^2.18.1" args=["mysql@^2.18.1",null]
+74 verbose parsed url { protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: 'mysql@^2.18.1',
+74 verbose parsed url   path: 'mysql@^2.18.1',
+74 verbose parsed url   href: 'mysql@^2.18.1' }
+75 verbose cache add name="mysql" spec="^2.18.1" args=["mysql","^2.18.1"]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: '^2.18.1',
+76 verbose parsed url   path: '^2.18.1',
+76 verbose parsed url   href: '^2.18.1' }
+77 verbose addNamed [ 'mysql', '^2.18.1' ]
+78 verbose addNamed [ null, null ]
+79 verbose cache add [ 'mysql2@^1.6.5', null ]
+80 verbose cache add name=undefined spec="mysql2@^1.6.5" args=["mysql2@^1.6.5",null]
+81 verbose parsed url { protocol: null,
+81 verbose parsed url   slashes: null,
+81 verbose parsed url   auth: null,
+81 verbose parsed url   host: null,
+81 verbose parsed url   port: null,
+81 verbose parsed url   hostname: null,
+81 verbose parsed url   hash: null,
+81 verbose parsed url   search: null,
+81 verbose parsed url   query: null,
+81 verbose parsed url   pathname: 'mysql2@^1.6.5',
+81 verbose parsed url   path: 'mysql2@^1.6.5',
+81 verbose parsed url   href: 'mysql2@^1.6.5' }
+82 verbose cache add name="mysql2" spec="^1.6.5" args=["mysql2","^1.6.5"]
+83 verbose parsed url { protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: '^1.6.5',
+83 verbose parsed url   path: '^1.6.5',
+83 verbose parsed url   href: '^1.6.5' }
+84 verbose addNamed [ 'mysql2', '^1.6.5' ]
+85 verbose addNamed [ null, null ]
+86 verbose cache add [ 'nodemon@^1.19.1', null ]
+87 verbose cache add name=undefined spec="nodemon@^1.19.1" args=["nodemon@^1.19.1",null]
+88 verbose parsed url { protocol: null,
+88 verbose parsed url   slashes: null,
+88 verbose parsed url   auth: null,
+88 verbose parsed url   host: null,
+88 verbose parsed url   port: null,
+88 verbose parsed url   hostname: null,
+88 verbose parsed url   hash: null,
+88 verbose parsed url   search: null,
+88 verbose parsed url   query: null,
+88 verbose parsed url   pathname: 'nodemon@^1.19.1',
+88 verbose parsed url   path: 'nodemon@^1.19.1',
+88 verbose parsed url   href: 'nodemon@^1.19.1' }
+89 verbose cache add name="nodemon" spec="^1.19.1" args=["nodemon","^1.19.1"]
+90 verbose parsed url { protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: null,
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: '^1.19.1',
+90 verbose parsed url   path: '^1.19.1',
+90 verbose parsed url   href: '^1.19.1' }
+91 verbose addNamed [ 'nodemon', '^1.19.1' ]
+92 verbose addNamed [ null, null ]
+93 verbose cache add [ 'passport@^0.4.0', null ]
+94 verbose cache add name=undefined spec="passport@^0.4.0" args=["passport@^0.4.0",null]
+95 verbose parsed url { protocol: null,
+95 verbose parsed url   slashes: null,
+95 verbose parsed url   auth: null,
+95 verbose parsed url   host: null,
+95 verbose parsed url   port: null,
+95 verbose parsed url   hostname: null,
+95 verbose parsed url   hash: null,
+95 verbose parsed url   search: null,
+95 verbose parsed url   query: null,
+95 verbose parsed url   pathname: 'passport@^0.4.0',
+95 verbose parsed url   path: 'passport@^0.4.0',
+95 verbose parsed url   href: 'passport@^0.4.0' }
+96 verbose cache add name="passport" spec="^0.4.0" args=["passport","^0.4.0"]
+97 verbose parsed url { protocol: null,
+97 verbose parsed url   slashes: null,
+97 verbose parsed url   auth: null,
+97 verbose parsed url   host: null,
+97 verbose parsed url   port: null,
+97 verbose parsed url   hostname: null,
+97 verbose parsed url   hash: null,
+97 verbose parsed url   search: null,
+97 verbose parsed url   query: null,
+97 verbose parsed url   pathname: '^0.4.0',
+97 verbose parsed url   path: '^0.4.0',
+97 verbose parsed url   href: '^0.4.0' }
+98 verbose addNamed [ 'passport', '^0.4.0' ]
+99 verbose addNamed [ null, null ]
+100 verbose cache add [ 'passport-jwt@^4.0.0', null ]
+101 verbose cache add name=undefined spec="passport-jwt@^4.0.0" args=["passport-jwt@^4.0.0",null]
+102 verbose parsed url { protocol: null,
+102 verbose parsed url   slashes: null,
+102 verbose parsed url   auth: null,
+102 verbose parsed url   host: null,
+102 verbose parsed url   port: null,
+102 verbose parsed url   hostname: null,
+102 verbose parsed url   hash: null,
+102 verbose parsed url   search: null,
+102 verbose parsed url   query: null,
+102 verbose parsed url   pathname: 'passport-jwt@^4.0.0',
+102 verbose parsed url   path: 'passport-jwt@^4.0.0',
+102 verbose parsed url   href: 'passport-jwt@^4.0.0' }
+103 verbose cache add name="passport-jwt" spec="^4.0.0" args=["passport-jwt","^4.0.0"]
+104 verbose parsed url { protocol: null,
+104 verbose parsed url   slashes: null,
+104 verbose parsed url   auth: null,
+104 verbose parsed url   host: null,
+104 verbose parsed url   port: null,
+104 verbose parsed url   hostname: null,
+104 verbose parsed url   hash: null,
+104 verbose parsed url   search: null,
+104 verbose parsed url   query: null,
+104 verbose parsed url   pathname: '^4.0.0',
+104 verbose parsed url   path: '^4.0.0',
+104 verbose parsed url   href: '^4.0.0' }
+105 verbose addNamed [ 'passport-jwt', '^4.0.0' ]
+106 verbose addNamed [ null, null ]
+107 verbose cache add [ 'pg@^7.11.0', null ]
+108 verbose cache add name=undefined spec="pg@^7.11.0" args=["pg@^7.11.0",null]
+109 verbose parsed url { protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: 'pg@^7.11.0',
+109 verbose parsed url   path: 'pg@^7.11.0',
+109 verbose parsed url   href: 'pg@^7.11.0' }
+110 verbose cache add name="pg" spec="^7.11.0" args=["pg","^7.11.0"]
+111 verbose parsed url { protocol: null,
+111 verbose parsed url   slashes: null,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: null,
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: null,
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: '^7.11.0',
+111 verbose parsed url   path: '^7.11.0',
+111 verbose parsed url   href: '^7.11.0' }
+112 verbose addNamed [ 'pg', '^7.11.0' ]
+113 verbose addNamed [ null, null ]
+114 verbose cache add [ 'sequelize@^5.21.5', null ]
+115 verbose cache add name=undefined spec="sequelize@^5.21.5" args=["sequelize@^5.21.5",null]
+116 verbose parsed url { protocol: null,
+116 verbose parsed url   slashes: null,
+116 verbose parsed url   auth: null,
+116 verbose parsed url   host: null,
+116 verbose parsed url   port: null,
+116 verbose parsed url   hostname: null,
+116 verbose parsed url   hash: null,
+116 verbose parsed url   search: null,
+116 verbose parsed url   query: null,
+116 verbose parsed url   pathname: 'sequelize@^5.21.5',
+116 verbose parsed url   path: 'sequelize@^5.21.5',
+116 verbose parsed url   href: 'sequelize@^5.21.5' }
+117 verbose cache add name="sequelize" spec="^5.21.5" args=["sequelize","^5.21.5"]
+118 verbose parsed url { protocol: null,
+118 verbose parsed url   slashes: null,
+118 verbose parsed url   auth: null,
+118 verbose parsed url   host: null,
+118 verbose parsed url   port: null,
+118 verbose parsed url   hostname: null,
+118 verbose parsed url   hash: null,
+118 verbose parsed url   search: null,
+118 verbose parsed url   query: null,
+118 verbose parsed url   pathname: '^5.21.5',
+118 verbose parsed url   path: '^5.21.5',
+118 verbose parsed url   href: '^5.21.5' }
+119 verbose addNamed [ 'sequelize', '^5.21.5' ]
+120 verbose addNamed [ null, null ]
+121 silly lockFile 30db234c-bcrypt-nodejs-0-0-3 bcrypt-nodejs@0.0.3
+122 verbose lock bcrypt-nodejs@0.0.3 C:\Users\MARKETING\AppData\Roaming\npm-cache\30db234c-bcrypt-nodejs-0-0-3.lock
+123 silly lockFile 3f68a212-bluebird-3-5-5 bluebird@^3.5.5
+124 verbose lock bluebird@^3.5.5 C:\Users\MARKETING\AppData\Roaming\npm-cache\3f68a212-bluebird-3-5-5.lock
+125 silly lockFile 66b42ae7-body-parser-1-19-0 body-parser@^1.19.0
+126 verbose lock body-parser@^1.19.0 C:\Users\MARKETING\AppData\Roaming\npm-cache\66b42ae7-body-parser-1-19-0.lock
+127 silly lockFile 51850d89-cloudinary-1-14-0 cloudinary@^1.14.0
+128 verbose lock cloudinary@^1.14.0 C:\Users\MARKETING\AppData\Roaming\npm-cache\51850d89-cloudinary-1-14-0.lock
+129 silly lockFile 244e9b86-cors-2-8-5 cors@^2.8.5
+130 verbose lock cors@^2.8.5 C:\Users\MARKETING\AppData\Roaming\npm-cache\244e9b86-cors-2-8-5.lock
+131 silly lockFile 462f207e-express-4-17-1 express@^4.17.1
+132 verbose lock express@^4.17.1 C:\Users\MARKETING\AppData\Roaming\npm-cache\462f207e-express-4-17-1.lock
+133 silly lockFile 237fd32e-jsonwebtoken-8-5-1 jsonwebtoken@^8.5.1
+134 verbose lock jsonwebtoken@^8.5.1 C:\Users\MARKETING\AppData\Roaming\npm-cache\237fd32e-jsonwebtoken-8-5-1.lock
+135 silly lockFile d6113e35-morgan-1-9-1 morgan@^1.9.1
+136 verbose lock morgan@^1.9.1 C:\Users\MARKETING\AppData\Roaming\npm-cache\d6113e35-morgan-1-9-1.lock
+137 silly lockFile 9d1f1ca9-multer-1-4-1 multer@^1.4.1
+138 verbose lock multer@^1.4.1 C:\Users\MARKETING\AppData\Roaming\npm-cache\9d1f1ca9-multer-1-4-1.lock
+139 silly lockFile 90d9db08-mysql-2-18-1 mysql@^2.18.1
+140 verbose lock mysql@^2.18.1 C:\Users\MARKETING\AppData\Roaming\npm-cache\90d9db08-mysql-2-18-1.lock
+141 silly lockFile 40375fd6-mysql2-1-6-5 mysql2@^1.6.5
+142 verbose lock mysql2@^1.6.5 C:\Users\MARKETING\AppData\Roaming\npm-cache\40375fd6-mysql2-1-6-5.lock
+143 silly lockFile 5e6d1a8a-nodemon-1-19-1 nodemon@^1.19.1
+144 verbose lock nodemon@^1.19.1 C:\Users\MARKETING\AppData\Roaming\npm-cache\5e6d1a8a-nodemon-1-19-1.lock
+145 silly lockFile 7d023057-passport-0-4-0 passport@^0.4.0
+146 verbose lock passport@^0.4.0 C:\Users\MARKETING\AppData\Roaming\npm-cache\7d023057-passport-0-4-0.lock
+147 silly lockFile a1e49d21-passport-jwt-4-0-0 passport-jwt@^4.0.0
+148 verbose lock passport-jwt@^4.0.0 C:\Users\MARKETING\AppData\Roaming\npm-cache\a1e49d21-passport-jwt-4-0-0.lock
+149 silly lockFile 02925c69-pg-7-11-0 pg@^7.11.0
+150 verbose lock pg@^7.11.0 C:\Users\MARKETING\AppData\Roaming\npm-cache\02925c69-pg-7-11-0.lock
+151 silly lockFile f1210cab-sequelize-5-21-5 sequelize@^5.21.5
+152 verbose lock sequelize@^5.21.5 C:\Users\MARKETING\AppData\Roaming\npm-cache\f1210cab-sequelize-5-21-5.lock
+153 silly addNameRange { name: 'bluebird', range: '*', hasData: false }
+154 silly addNameRange { name: 'body-parser', range: '*', hasData: false }
+155 silly addNameRange { name: 'cloudinary', range: '*', hasData: false }
+156 verbose cache add [ 'sqlite3@^4.1.1', null ]
+157 verbose cache add name=undefined spec="sqlite3@^4.1.1" args=["sqlite3@^4.1.1",null]
+158 verbose parsed url { protocol: null,
+158 verbose parsed url   slashes: null,
+158 verbose parsed url   auth: null,
+158 verbose parsed url   host: null,
+158 verbose parsed url   port: null,
+158 verbose parsed url   hostname: null,
+158 verbose parsed url   hash: null,
+158 verbose parsed url   search: null,
+158 verbose parsed url   query: null,
+158 verbose parsed url   pathname: 'sqlite3@^4.1.1',
+158 verbose parsed url   path: 'sqlite3@^4.1.1',
+158 verbose parsed url   href: 'sqlite3@^4.1.1' }
+159 verbose cache add name="sqlite3" spec="^4.1.1" args=["sqlite3","^4.1.1"]
+160 verbose parsed url { protocol: null,
+160 verbose parsed url   slashes: null,
+160 verbose parsed url   auth: null,
+160 verbose parsed url   host: null,
+160 verbose parsed url   port: null,
+160 verbose parsed url   hostname: null,
+160 verbose parsed url   hash: null,
+160 verbose parsed url   search: null,
+160 verbose parsed url   query: null,
+160 verbose parsed url   pathname: '^4.1.1',
+160 verbose parsed url   path: '^4.1.1',
+160 verbose parsed url   href: '^4.1.1' }
+161 verbose addNamed [ 'sqlite3', '^4.1.1' ]
+162 verbose addNamed [ null, null ]
+163 silly lockFile a7d71dfe-sqlite3-4-1-1 sqlite3@^4.1.1
+164 verbose lock sqlite3@^4.1.1 C:\Users\MARKETING\AppData\Roaming\npm-cache\a7d71dfe-sqlite3-4-1-1.lock
+165 verbose cache add [ 'eslint@^5.16.0', null ]
+166 verbose cache add name=undefined spec="eslint@^5.16.0" args=["eslint@^5.16.0",null]
+167 verbose parsed url { protocol: null,
+167 verbose parsed url   slashes: null,
+167 verbose parsed url   auth: null,
+167 verbose parsed url   host: null,
+167 verbose parsed url   port: null,
+167 verbose parsed url   hostname: null,
+167 verbose parsed url   hash: null,
+167 verbose parsed url   search: null,
+167 verbose parsed url   query: null,
+167 verbose parsed url   pathname: 'eslint@^5.16.0',
+167 verbose parsed url   path: 'eslint@^5.16.0',
+167 verbose parsed url   href: 'eslint@^5.16.0' }
+168 verbose cache add name="eslint" spec="^5.16.0" args=["eslint","^5.16.0"]
+169 verbose parsed url { protocol: null,
+169 verbose parsed url   slashes: null,
+169 verbose parsed url   auth: null,
+169 verbose parsed url   host: null,
+169 verbose parsed url   port: null,
+169 verbose parsed url   hostname: null,
+169 verbose parsed url   hash: null,
+169 verbose parsed url   search: null,
+169 verbose parsed url   query: null,
+169 verbose parsed url   pathname: '^5.16.0',
+169 verbose parsed url   path: '^5.16.0',
+169 verbose parsed url   href: '^5.16.0' }
+170 verbose addNamed [ 'eslint', '^5.16.0' ]
+171 verbose addNamed [ null, null ]
+172 silly lockFile 46f271e2-eslint-5-16-0 eslint@^5.16.0
+173 verbose lock eslint@^5.16.0 C:\Users\MARKETING\AppData\Roaming\npm-cache\46f271e2-eslint-5-16-0.lock
+174 silly addNameRange { name: 'cors', range: '*', hasData: false }
+175 silly addNameRange { name: 'express', range: '*', hasData: false }
+176 silly addNameRange { name: 'jsonwebtoken', range: '*', hasData: false }
+177 silly addNameRange { name: 'morgan', range: '*', hasData: false }
+178 silly addNameRange { name: 'multer', range: '*', hasData: false }
+179 silly addNameRange { name: 'mysql', range: '*', hasData: false }
+180 silly addNameRange { name: 'mysql2', range: '*', hasData: false }
+181 silly addNameRange { name: 'nodemon', range: '*', hasData: false }
+182 silly addNameRange { name: 'passport', range: '*', hasData: false }
+183 silly addNameRange { name: 'passport-jwt', range: '*', hasData: false }
+184 verbose url raw bluebird
+185 verbose url resolving [ 'https://registry.npmjs.org/', './bluebird' ]
+186 verbose url resolved https://registry.npmjs.org/bluebird
+187 info trying registry request attempt 1 at 10:07:58
+188 http GET https://registry.npmjs.org/bluebird
+189 silly addNameRange { name: 'pg', range: '*', hasData: false }
+190 verbose url raw body-parser
+191 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+192 verbose url resolved https://registry.npmjs.org/body-parser
+193 info trying registry request attempt 1 at 10:07:58
+194 http GET https://registry.npmjs.org/body-parser
+195 verbose url raw bcrypt-nodejs/0.0.3
+196 verbose url resolving [ 'https://registry.npmjs.org/', './bcrypt-nodejs/0.0.3' ]
+197 verbose url resolved https://registry.npmjs.org/bcrypt-nodejs/0.0.3
+198 info trying registry request attempt 1 at 10:07:58
+199 http GET https://registry.npmjs.org/bcrypt-nodejs/0.0.3
+200 silly addNameRange { name: 'sequelize', range: '*', hasData: false }
+201 verbose url raw cloudinary
+202 verbose url resolving [ 'https://registry.npmjs.org/', './cloudinary' ]
+203 verbose url resolved https://registry.npmjs.org/cloudinary
+204 info trying registry request attempt 1 at 10:07:58
+205 http GET https://registry.npmjs.org/cloudinary
+206 silly addNameRange { name: 'sqlite3', range: '*', hasData: false }
+207 silly addNameRange { name: 'eslint', range: '*', hasData: false }
+208 verbose url raw express
+209 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+210 verbose url resolved https://registry.npmjs.org/express
+211 info trying registry request attempt 1 at 10:07:58
+212 http GET https://registry.npmjs.org/express
+213 verbose url raw cors
+214 verbose url resolving [ 'https://registry.npmjs.org/', './cors' ]
+215 verbose url resolved https://registry.npmjs.org/cors
+216 info trying registry request attempt 1 at 10:07:58
+217 http GET https://registry.npmjs.org/cors
+218 verbose url raw jsonwebtoken
+219 verbose url resolving [ 'https://registry.npmjs.org/', './jsonwebtoken' ]
+220 verbose url resolved https://registry.npmjs.org/jsonwebtoken
+221 info trying registry request attempt 1 at 10:07:58
+222 http GET https://registry.npmjs.org/jsonwebtoken
+223 verbose url raw morgan
+224 verbose url resolving [ 'https://registry.npmjs.org/', './morgan' ]
+225 verbose url resolved https://registry.npmjs.org/morgan
+226 info trying registry request attempt 1 at 10:07:58
+227 http GET https://registry.npmjs.org/morgan
+228 verbose url raw multer
+229 verbose url resolving [ 'https://registry.npmjs.org/', './multer' ]
+230 verbose url resolved https://registry.npmjs.org/multer
+231 info trying registry request attempt 1 at 10:07:58
+232 http GET https://registry.npmjs.org/multer
+233 verbose url raw mysql
+234 verbose url resolving [ 'https://registry.npmjs.org/', './mysql' ]
+235 verbose url resolved https://registry.npmjs.org/mysql
+236 info trying registry request attempt 1 at 10:07:58
+237 http GET https://registry.npmjs.org/mysql
+238 verbose url raw mysql2
+239 verbose url resolving [ 'https://registry.npmjs.org/', './mysql2' ]
+240 verbose url resolved https://registry.npmjs.org/mysql2
+241 info trying registry request attempt 1 at 10:07:58
+242 http GET https://registry.npmjs.org/mysql2
+243 verbose url raw nodemon
+244 verbose url resolving [ 'https://registry.npmjs.org/', './nodemon' ]
+245 verbose url resolved https://registry.npmjs.org/nodemon
+246 info trying registry request attempt 1 at 10:07:58
+247 http GET https://registry.npmjs.org/nodemon
+248 verbose url raw passport
+249 verbose url resolving [ 'https://registry.npmjs.org/', './passport' ]
+250 verbose url resolved https://registry.npmjs.org/passport
+251 info trying registry request attempt 1 at 10:07:58
+252 http GET https://registry.npmjs.org/passport
+253 verbose url raw passport-jwt
+254 verbose url resolving [ 'https://registry.npmjs.org/', './passport-jwt' ]
+255 verbose url resolved https://registry.npmjs.org/passport-jwt
+256 info trying registry request attempt 1 at 10:07:58
+257 http GET https://registry.npmjs.org/passport-jwt
+258 verbose url raw pg
+259 verbose url resolving [ 'https://registry.npmjs.org/', './pg' ]
+260 verbose url resolved https://registry.npmjs.org/pg
+261 info trying registry request attempt 1 at 10:07:58
+262 http GET https://registry.npmjs.org/pg
+263 verbose url raw sequelize
+264 verbose url resolving [ 'https://registry.npmjs.org/', './sequelize' ]
+265 verbose url resolved https://registry.npmjs.org/sequelize
+266 info trying registry request attempt 1 at 10:07:58
+267 http GET https://registry.npmjs.org/sequelize
+268 verbose url raw sqlite3
+269 verbose url resolving [ 'https://registry.npmjs.org/', './sqlite3' ]
+270 verbose url resolved https://registry.npmjs.org/sqlite3
+271 info trying registry request attempt 1 at 10:07:58
+272 http GET https://registry.npmjs.org/sqlite3
+273 verbose url raw eslint
+274 verbose url resolving [ 'https://registry.npmjs.org/', './eslint' ]
+275 verbose url resolved https://registry.npmjs.org/eslint
+276 info trying registry request attempt 1 at 10:07:58
+277 http GET https://registry.npmjs.org/eslint
+278 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+279 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+280 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+281 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+282 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+283 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+284 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+285 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+286 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+287 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+288 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+289 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+290 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+291 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+292 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+293 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+294 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+295 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+296 info trying registry request attempt 2 at 10:08:08
+297 http GET https://registry.npmjs.org/bluebird
+298 info trying registry request attempt 2 at 10:08:08
+299 http GET https://registry.npmjs.org/bcrypt-nodejs/0.0.3
+300 info trying registry request attempt 2 at 10:08:08
+301 http GET https://registry.npmjs.org/body-parser
+302 info trying registry request attempt 2 at 10:08:08
+303 http GET https://registry.npmjs.org/cloudinary
+304 info trying registry request attempt 2 at 10:08:08
+305 http GET https://registry.npmjs.org/express
+306 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+307 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+308 info trying registry request attempt 2 at 10:08:08
+309 http GET https://registry.npmjs.org/cors
+310 info trying registry request attempt 2 at 10:08:08
+311 http GET https://registry.npmjs.org/jsonwebtoken
+312 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+313 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+314 info trying registry request attempt 2 at 10:08:08
+315 http GET https://registry.npmjs.org/morgan
+316 info trying registry request attempt 2 at 10:08:08
+317 http GET https://registry.npmjs.org/multer
+318 info trying registry request attempt 2 at 10:08:08
+319 http GET https://registry.npmjs.org/mysql
+320 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+321 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+322 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+323 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+324 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+325 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+326 info trying registry request attempt 2 at 10:08:09
+327 http GET https://registry.npmjs.org/mysql2
+328 info trying registry request attempt 2 at 10:08:09
+329 http GET https://registry.npmjs.org/nodemon
+330 info trying registry request attempt 2 at 10:08:09
+331 http GET https://registry.npmjs.org/passport-jwt
+332 info trying registry request attempt 2 at 10:08:09
+333 http GET https://registry.npmjs.org/passport
+334 info trying registry request attempt 2 at 10:08:09
+335 http GET https://registry.npmjs.org/pg
+336 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+337 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+338 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+339 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+340 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+341 info trying registry request attempt 2 at 10:08:09
+342 http GET https://registry.npmjs.org/sqlite3
+343 info trying registry request attempt 2 at 10:08:09
+344 http GET https://registry.npmjs.org/sequelize
+345 info trying registry request attempt 2 at 10:08:09
+346 http GET https://registry.npmjs.org/eslint
+347 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+348 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+349 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+350 info trying registry request attempt 3 at 10:09:08
+351 http GET https://registry.npmjs.org/bluebird
+352 info trying registry request attempt 3 at 10:09:08
+353 http GET https://registry.npmjs.org/bcrypt-nodejs/0.0.3
+354 info trying registry request attempt 3 at 10:09:08
+355 http GET https://registry.npmjs.org/body-parser
+356 info trying registry request attempt 3 at 10:09:08
+357 http GET https://registry.npmjs.org/express
+358 info trying registry request attempt 3 at 10:09:08
+359 http GET https://registry.npmjs.org/cloudinary
+360 silly lockFile 3f68a212-bluebird-3-5-5 bluebird@^3.5.5
+361 silly lockFile 3f68a212-bluebird-3-5-5 bluebird@^3.5.5
+362 info trying registry request attempt 3 at 10:09:08
+363 http GET https://registry.npmjs.org/cors
+364 error Error: CERT_UNTRUSTED
+364 error     at SecurePair.<anonymous> (tls.js:1349:32)
+364 error     at SecurePair.EventEmitter.emit (events.js:92:17)
+364 error     at SecurePair.maybeInitFinished (tls.js:962:10)
+364 error     at CleartextStream.read [as _read] (tls.js:463:15)
+364 error     at CleartextStream.Readable.read (_stream_readable.js:320:10)
+364 error     at EncryptedStream.write [as _write] (tls.js:366:25)
+364 error     at doWrite (_stream_writable.js:219:10)
+364 error     at writeOrBuffer (_stream_writable.js:209:5)
+364 error     at EncryptedStream.Writable.write (_stream_writable.js:180:11)
+364 error     at write (_stream_readable.js:573:24)
+364 error     at flow (_stream_readable.js:582:7)
+364 error     at Socket.pipeOnReadable (_stream_readable.js:614:5)
+365 error If you need help, you may report this log at:
+365 error     <http://github.com/isaacs/npm/issues>
+365 error or email it to:
+365 error     <npm-@googlegroups.com>
+366 error System Windows_NT 6.2.9200
+367 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+368 error cwd C:\Users\MARKETING\Documents\GitHub\BlackBox-mk2\express-server
+369 error node -v v0.10.13
+370 error npm -v 1.3.2
+371 verbose exit [ 1, true ]

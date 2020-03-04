@@ -1,0 +1,18 @@
+{
+  "name": "blackbox",
+  "version": "1.0.0",
+  "description": "My First attempt at a job platform",
+  "scripts": {
+    "start": "node express-server/src/app.js",
+    "build-client": "cd ./vue-client && npm install && npm run build",
+    "install-server": "cd ./express-server && npm install",
+    "seed": "node express-server/seed/index.js"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "cacheDirectories": [
+    "vue-client/node_modules",
+    "express-server/node_modules"
+  ]
+}

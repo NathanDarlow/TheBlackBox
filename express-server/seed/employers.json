@@ -1,0 +1,68 @@
+[
+  {
+    "company": "Google",
+    "email": "test@test.com",
+    "representative": "Nathan Darlow",
+    "password": "password"
+  }, 
+  {
+    "company": "Apple",
+    "email": "test1@test.com",
+    "representative": "Nathan Darlow",
+    "password": "password"
+  }, 
+  {
+    "company": "Amazon",
+    "email": "test2@test.com",
+    "representative": "Nathan Darlow",
+    "password": "password"
+  }, 
+  {
+    "company": "HSBC",
+    "email": "test3@test.com",
+    "representative": "Nathan Darlow",
+    "password": "password"
+  }, 
+  {
+    "company": "Addenbrookes",
+    "email": "test4@test.com",
+    "representative": "Nathan Darlow",
+    "password": "password"
+  }, 
+  {
+    "company": "Spotify",
+    "email": "test5@test.com",
+    "representative": "Nathan Darlow",
+    "password": "password"
+  }, 
+  {
+    "company": "Netflix",
+    "email": "test6@test.com",
+    "representative": "Nathan Darlow",
+    "password": "password"
+  }, 
+  {
+    "company": "Sky",
+    "email": "test7@test.com",
+    "representative": "Nathan Darlow",
+    "password": "password"
+  }, 
+  {
+    "company": "Santander",
+    "email": "test8@test.com",
+    "representative": "Nathan Darlow",
+    "password": "password"
+  }, 
+  {
+    "company": "Instagram",
+    "email": "test9@test.com",
+    "representative": "Nathan Darlow",
+    "password": "password"
+  }, 
+  {
+    "company": "Facebook",
+    "email": "test10@test.com",
+    "representative": "Nathan Darlow",
+    "password": "password"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "firstName": "Nathan",
+    "lastName": "Darlow",
+    "email": "test@test.com",
+    "password": "password"
+  },
+  {
+    "firstName": "Chandler",
+    "lastName": "Bing",
+    "email": "test2@test.com",
+    "password": "password"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Brent",
+    "email": "test3@test.com",
+    "password": "password"
+  },
+  {
+    "firstName": "Tony",
+    "lastName": "Stark",
+    "email": "test4@test.com",
+    "password": "password"
+  },
+  {
+    "firstName": "Bruce",
+    "lastName": "Banner",
+    "email": "test5@test.com",
+    "password": "password"
+  },
+  {
+    "firstName": "Thor",
+    "lastName": "Odinson",
+    "email": "test6@test.com",
+    "password": "password"
+  },
+  {
+    "firstName": "Black",
+    "lastName": "Panther",
+    "email": "test7@test.com",
+    "password": "password"
+  },
+  {
+    "firstName": "Spongebob",
+    "lastName": "Squarepants",
+    "email": "test8@test.com",
+    "password": "password"
+  },
+  {
+    "firstName": "Wade",
+    "lastName": "Wilson",
+    "email": "test9@test.com",
+    "password": "password"
+  },
+  {
+    "firstName": "Gareth",
+    "lastName": "Keenen",
+    "email": "test10@test.com",
+    "password": "password"
+  }
+]
